@@ -1,6 +1,46 @@
-.result {
-    width: 20%;
-    color: black;
-    font-weight: 900;
-    height: 20%;
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  background-color: #4f5d75;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+footer {
+  position: absolute;
+  bottom: 0 ;
+}
+
+button {
+  width: 20%;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+input {
+  width: 26%;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ef8354;
+}
+form {
+    font-size: 2rem;
+}
+
+.bmi-result {
+    font-size: 2.2rem;
+    font-weight: bolder;
+    
+}
+.bmi-color {
+  color: #ef8354;
+  font-weight: 900;
+}
+.text {
+  
+  color: #3c1642;
+  font-weight: bolder;
 }

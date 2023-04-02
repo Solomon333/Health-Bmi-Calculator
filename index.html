@@ -5,24 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bmi-calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <main class="main">
+        
             <div class="content">
-                <h1>BMI Calculator </h1>
+                <h1><span class="bmi-color">BMI</span> Calculator </h1>
                 <form action="none" method="post" name="bmiform">
-                    <label for="weight">Weight(kg)</label>
+                    <label  for="weight">Weight <span class="text">(kg)</span></label>
                     <input type="number" name="weight" id="weight">
-                    <label for="height">height(cm)</label>
-                    <input type="number" name="height" id="height">
+                    <label  for="height">height <span class="text">(cm)</span></label>
+                    <input  type="number" name="height" id="height">
                     <button onclick="bmiCalc()" type="button" name="Calculaate" value="Calculaate your BMI" >Calculaate BMI</button>
                 </form>
                 
                 <p class="bmi-result"></p>
                 <button class="resetBtn">Clear</button>
             </div>
-        </main>
+     
 
         <footer class="footer">
         <p><i class="fa fas-copyright" >made by SoloDev</i></p>
