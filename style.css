@@ -16,7 +16,16 @@ footer {
 button {
   width: 20%;
   padding: 0.5rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  border: none;
+  padding-bottom: 1rem;
+  cursor: pointer;
+  background-color: #dada;
+  color: #fff;
+}
+button:hover {
+    background: #3c1642;
+    transition: 1s;
 }
 
 input {
