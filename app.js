@@ -24,7 +24,7 @@ function bmiCalc() {
 
 }
 
-  document.querySelector(".resetBtn").addEventListener("click", function() {
+  document.querySelector(".reset-btn").addEventListener("click", function() {
      document.querySelector(".bmi-result").innerHTML = '';
       document.getElementById("weight").value = '';
      document.getElementById("height").value = '';
