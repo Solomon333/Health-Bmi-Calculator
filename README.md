@@ -1,4 +1,4 @@
-- Body Mass Index - Calculator;
+ BMI(body mass index) - Calculator.
 
 - this app calculates the user's BMI by taking weight(kg) and height(cm) as input.
 - then make a quick calculation and output the user's BMI result. 
