@@ -1,4 +1,4 @@
- BMI(body mass index) - Calculator.
+ BMI-(Body Mass Index) - Calculator.
 
 - Calculates the user's BMI 
 - Taking weight(kg) and height(cm) as input.
