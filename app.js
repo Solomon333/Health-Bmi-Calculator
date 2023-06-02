@@ -4,7 +4,7 @@ function bmiCalc() {
     let weight = document.getElementById("weight").value;
     let height = document.getElementById("height").value;
     let result = document.querySelector(".bmi-result");
-    let bmi =  Math.round((weight) / Math.pow(height/100, 2).toFixed(2));
+    let bmi =  Math.round(weight / Math.pow(height/100, 2));
     
     
     if(bmi < 18.5){
